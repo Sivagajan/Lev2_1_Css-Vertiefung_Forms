@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact{
+    height: 80vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+h2{
+    text-align: center;
+    width: 20vw;
+    background-color: rgb(83, 217, 167);
+    padding: 20px 0;
+    color: white;
+}
+
+.inputs{
+    width: 20vw;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: rgb(245,245,245);
+}
+
+article input{
+    width: 18vw;
+    margin: auto;
+    line-height: 30px;
+}
+
+article textarea{
+    width: 18vw;
+    margin: auto;
+    line-height: 35px;
+}
+
+#submit{
+    background-color: rgb(83,217,167);
+    color: white;
+}
+
+#submit:hover{
+    background-color: rgb(53, 140, 108);
+}
+
